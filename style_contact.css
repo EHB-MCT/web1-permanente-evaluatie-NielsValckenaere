@@ -49,15 +49,10 @@ main h2 {
     font-size: 200%;
     padding-top: 20px;
     padding-left: 40px;
+    color: white;
 }
 
-.champions {
-    background-color: rgba(212, 223, 59, 0.685);
-}
+main ul {
+    list-style-type: none;
 
-.champions img {
-    float: left;
-    padding: 5px;
-    margin-right: 40px;
-    margin-bottom: 30px;
 }
