@@ -70,3 +70,13 @@ figcaption {
 p {
     color: white;
 }
+
+.div-Lebron-James {
+    overflow: hidden;
+}
+
+figcaption {
+    position: sticky;
+    display: flex;
+    justify-content: left;
+}
