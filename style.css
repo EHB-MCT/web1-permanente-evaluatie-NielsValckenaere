@@ -1,70 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 body {
-    background: url(./fotos/TexturesCom_WoodPlanksClean0102_2_seamless_S.jpg);
-    font-family: sans-serif;
+    background-color: rgb(41, 41, 41);
 }
 
 h1 {
-    text-align: center;
-}
-
-header {
-    text-align: center;
-    background-image: repeating-radial-gradient(purple 20%, gold 35%);
-}
-
-header h1 {
     color: white;
+    font-family: arial, sans-serif;
+
 }
 
-a:hover {
-    font-size: 150%;
-    color: yellow
-}
-
-a:focus {
-    font-size: 150%;
-    color: yellow
-}
-
-ul.navigation {
-    margin: 0 auto;
-    padding: 25px 10px;
-    list-style: none;
-    background-color: purple;
-}
-
-ul.navigation li {
-    width: 490px;
-    list-style-type: none;
-    float: left;
-    border-right: 1px solid white;
-}
-
-li a {
-    display: block;
-    color: white;
-}
-
-main h2 {
-    font-size: 200%;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.champions {
-    background-color: rgba(212, 223, 59, 0.685);
-}
-
-.champions img {
-    float: left;
+nav {
+    margin: 0px;
     padding: 5px;
-    margin-right: 40px;
-    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
 }
 
-.champions p {
-    padding: 10px;
-    padding: left 10px;
-
+nav li {
+    display: inline-block;
+    padding: 15px 20px;
 }
 
+.logo {
+    color: white;
+    padding: 5px 25px;
+    font: 15px Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+    color: red;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font: 15px Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.box a {
+    text-decoration: underline;
+}
+
+.intro {
+    margin-top: 200px;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.intro h1 {
+    width: 50%;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.intro p {
+    width: 50%;
+    color: white;
+    font-family: arial, sans-serif;
+    margin-top: 15px;
+}
+
+.intro p a {
+    width: 50%;
+    color: red;
+    font-family: arial, sans-serif;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.profielfoto img {
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 30%;
+}
+
+.profielfoto p {
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    margin-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-family: arial, sans-serif;
+    width: 45%;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 175px;
+    font-size: 30px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+/*Ik weet niet waarom de flexbox zich niet centraal zet*/
+
+.studies1 {
+    position: absolute;
+    top: 750px;
+    margin-left: 25px;
+    overflow: hidden;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.footer {
+    background-color: rgb(53, 52, 52);
+    margin-top: 25px;
+}
+
+.footer p {
+    font-family: arial, sans-serif;
+    color: white;
+    padding-top: 50px;
+}
